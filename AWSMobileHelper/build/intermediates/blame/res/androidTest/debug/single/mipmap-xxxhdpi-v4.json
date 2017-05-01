@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxxhdpi-v4\\button_amazon.png",
+        "source": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxxhdpi-v4\\button_amazon.png"
+    },
+    {
+        "merged": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxxhdpi-v4\\button_twitter_pressed.png",
+        "source": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxxhdpi-v4\\button_twitter_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxxhdpi-v4\\button_twitter.png",
+        "source": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxxhdpi-v4\\button_twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxxhdpi-v4\\button_amazon_pressed.png",
+        "source": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxxhdpi-v4\\button_amazon_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxxhdpi-v4\\button_login_pressed.png",
+        "source": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxxhdpi-v4\\button_login_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxxhdpi-v4\\button_login.png",
+        "source": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxxhdpi-v4\\button_login.png"
+    }
+]
