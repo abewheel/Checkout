@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\src\\main\\res\\mipmap-xxxhdpi\\button_amazon.png"
     },
     {
+        "merged": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\splash.png",
+        "source": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\src\\main\\res\\mipmap-xxxhdpi\\splash.png"
+    },
+    {
         "merged": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\button_login_pressed.png",
         "source": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\src\\main\\res\\mipmap-xxxhdpi\\button_login_pressed.png"
     },

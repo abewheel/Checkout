@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.checkout.Activities.CardActivity"
+    tools:showIn="@layout/app_card"
+    android:orientation="vertical">
+
+    <TextView
+        android:fontFamily="sans-serif-light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="#000000"
+        android:text="@string/editPayment"
+        android:layout_margin="8dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/activeCardTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activeCard"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/activeCardEditTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/activeCardTV"
+            android:layout_marginLeft="3dp"
+            android:contentDescription="@string/cardActiveNumberDescription"/>
+
+        <EditText
+            android:id="@+id/cardNumberET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cardNumber"
+            android:height="48dp"
+            android:layout_below="@id/activeCardTV"
+            android:contentDescription="@string/cardNumberDescription"/>
+
+        <EditText
+            android:id="@+id/nameOnCardET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nameOnCard"
+            android:height="48dp"
+            android:layout_below="@id/cardNumberET"
+            android:contentDescription="@string/cardNameDescription"/>
+
+        <EditText
+            android:id="@+id/expirationDateET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/expiration"
+            android:height="48dp"
+            android:layout_below="@id/nameOnCardET"
+            android:contentDescription="@string/cardExpirationDescription"/>
+
+        <EditText
+            android:id="@+id/cvvET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cvv"
+            android:height="48dp"
+            android:layout_below="@id/expirationDateET"
+            android:contentDescription="@string/cardCVVDescription"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:gravity="center"
+        android:background="#11d911"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-light"
+        android:contentDescription="@string/updateCardButtonDescription"/>
+
+</LinearLayout>
