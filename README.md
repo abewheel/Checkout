@@ -4,7 +4,7 @@
 
 <p align="center">
 
-  <img src="https://github.com/abewheel/Checkout/tree/master/images/ssLogin.PNG" alt="Login"/>
+  <img src="https://github.com/abewheel/Checkout/blob/master/images/ssLogin.PNG" alt="Login"/>
 
 </p>
 
@@ -19,13 +19,13 @@ Checkout is an autonomous checkout system and consolidated shopping resource app
 
 <p align="center">
 
-  <img src="https://github.com/abewheel/Checkout/tree/master/images/ssScan.PNG" alt="Scanner"/>
+  <img src="https://github.com/abewheel/Checkout/blob/master/images/ssScan.PNG" alt="Scanner"/>
 
 </p>
 
 
 
-##About the Project
+## About the Project
 
 
 This repository contains the Android source code for Checkout. It was written in 2017.
@@ -34,13 +34,13 @@ This repository contains the Android source code for Checkout. It was written in
 
 <p align="center">
 
-  <img src="https://github.com/abewheel/Checkout/tree/master/images/ssDrawer.PNG" alt="Drawer"/>
+  <img src="https://github.com/abewheel/Checkout/blob/master/images/ssDrawer.PNG" alt="Drawer"/>
 
 </p>
 
 
 
-##Technical Details
+## Technical Details
 
 
 Checkout was implemented in Java using AndroidStudio. It utilizes Amazon Cognito, DynamoDB NoSQL database, Amazon Pinpoint, and the Google Vision API. It uses an MVC design pattern with Singleton data persistence.
@@ -49,7 +49,7 @@ Checkout was implemented in Java using AndroidStudio. It utilizes Amazon Cognito
 
 <p align="center">
 
-  <img src="https://github.com/abewheel/Checkout/tree/master/images/ssCard.PNG" alt="Card"/>
+  <img src="https://github.com/abewheel/Checkout/blob/master/images/ssCard.PNG" alt="Card"/>
 
 </p>
 
@@ -57,7 +57,7 @@ Checkout was implemented in Java using AndroidStudio. It utilizes Amazon Cognito
 
 <p align="center">
 
-  <img src="https://github.com/abewheel/Checkout/tree/master/images/ssCart.PNG" alt="Cart"/>
+  <img src="https://github.com/abewheel/Checkout/blob/master/images/ssCart.PNG" alt="Cart"/>
 
 </p>
 
@@ -65,7 +65,7 @@ Checkout was implemented in Java using AndroidStudio. It utilizes Amazon Cognito
 
 <p align="center">
 
-  <img src="https://github.com/abewheel/Checkout/tree/master/images/ssForgotPassword.PNG" alt="Sign Up"/>
+  <img src="https://github.com/abewheel/Checkout/blob/master/images/ssForgotPassword.PNG" alt="Sign Up"/>
 
 </p>
 
@@ -73,7 +73,7 @@ Checkout was implemented in Java using AndroidStudio. It utilizes Amazon Cognito
 
 <p align="center">
 
-  <img src="https://github.com/abewheel/Checkout/tree/master/images/ssSignUp.PNG" alt="Sign Up"/>
+  <img src="https://github.com/abewheel/Checkout/blob/master/images/ssSignUp.PNG" alt="Sign Up"/>
 
 </p>
 
@@ -81,6 +81,6 @@ Checkout was implemented in Java using AndroidStudio. It utilizes Amazon Cognito
 
 <p align="center">
 
-  <img src="https://github.com/abewheel/Checkout/tree/master/images/ssHistory.PNG" alt="Purchases"/>
+  <img src="https://github.com/abewheel/Checkout/blob/master/images/ssHistory.PNG" alt="Purchases"/>
 
 </p>
