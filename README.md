@@ -28,7 +28,7 @@ Checkout is an autonomous checkout system and consolidated shopping resource app
 ## About the Project
 
 
-This repository contains the Android source code for Checkout. It was written in 2017.
+This repository contains the Android source code for Checkout. I wrote Checkout in 2017.
 
 
 

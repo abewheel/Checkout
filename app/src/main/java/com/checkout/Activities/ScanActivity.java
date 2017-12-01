@@ -1,16 +1,10 @@
 package com.checkout.Activities;
 
-import android.Manifest;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.hardware.Camera;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -19,9 +13,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.FrameLayout;
 
-import com.checkout.CameraPreview;
+import com.checkout.Fragments.CardFragment;
+import com.checkout.Fragments.CartFragment;
+import com.checkout.Fragments.HistoryFragment;
+import com.checkout.Fragments.ScanFragment;
 import com.checkout.R;
 
 public class ScanActivity extends AppCompatActivity
@@ -35,15 +31,6 @@ public class ScanActivity extends AppCompatActivity
 
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.captureButton);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -53,27 +40,13 @@ public class ScanActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        //init camera
-        if (getApplicationContext().getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA)){
-            Camera c = null;
-            try {
-                if(ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED){
-                    c = Camera.open();
-                }else{
-                    ActivityCompat.requestPermissions(this, new String[]{ Manifest.permission.CAMERA}, 0);
-                }
-
-                // Create our Preview view and set it as the content of our activity.
-                CameraPreview mPreview = new CameraPreview(this, c);
-                FrameLayout preview = (FrameLayout) findViewById(R.id.camera_preview);
-                preview.addView(mPreview);
-            }
-            catch (Exception e){
-                Log.e("ScanActivity", "Cannot open camera");
-            }
-        } else {
-            Log.e("ScanActivity", "Cannot access camera");
-        }
+        //add default scan fragment
+        FragmentManager fm = getSupportFragmentManager();
+        Fragment f = fm.findFragmentById(R.id.frame);
+        f = ScanFragment.newInstance();
+        FragmentTransaction ft = fm.beginTransaction();
+        ft.replace(R.id.frame, f);
+        ft.commit();
     }
 
     @Override
@@ -108,25 +81,25 @@ public class ScanActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
-    @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-
+        Log.d("NavItem", "test");
+        FragmentManager fm = getSupportFragmentManager();
+        Fragment f = fm.findFragmentById(R.id.frame);
         if (id == R.id.nav_scan) {
-            Intent i = new Intent(getApplicationContext(), ScanActivity.class);
-            startActivity(i);
+            f = ScanFragment.newInstance();
         } else if (id == R.id.nav_cart) {
-            Intent i = new Intent(getApplicationContext(), CartActivity.class);
-            startActivity(i);
+            f = CartFragment.newInstance();
         } else if (id == R.id.nav_card) {
-            Intent i = new Intent(getApplicationContext(), CardActivity.class);
-            startActivity(i);
+            f = CardFragment.newInstance();
         } else if (id == R.id.nav_history) {
-            Intent i = new Intent(getApplicationContext(), HistoryActivity.class);
-            startActivity(i);
+            f = HistoryFragment.newInstance();
         }
+        FragmentTransaction ft = fm.beginTransaction();
+        ft.replace(R.id.frame, f);
+        ft.commit();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

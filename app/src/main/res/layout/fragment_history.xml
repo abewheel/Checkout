@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.checkout.Activities.HistoryActivity"
-    tools:showIn="@layout/app_history"
+    tools:context="com.checkout.Fragments.HistoryFragment"
+    tools:showIn="@layout/fragment_history"
     android:orientation="vertical">
 
     <TextView
