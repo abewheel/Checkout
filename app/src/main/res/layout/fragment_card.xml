@@ -32,14 +32,6 @@
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="20dp"/>
 
-        <TextView
-            android:id="@+id/activeCardEditTV"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toRightOf="@+id/activeCardTV"
-            android:layout_marginLeft="3dp"
-            android:contentDescription="@string/cardActiveNumberDescription"/>
-
         <EditText
             android:id="@+id/cardNumberET"
             android:layout_width="match_parent"
@@ -79,6 +71,7 @@
     </RelativeLayout>
 
     <Button
+        android:id="@+id/updateCardButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/update"

@@ -28,11 +28,19 @@ public class Items {
         return items.get(i);
     }
 
+    public ArrayList<Item> getItems() {
+        return items;
+    }
+
     public void removeItem(int i) {
         items.remove(i);
     }
 
     public int size() {
         return items.size();
+    }
+
+    public boolean isEmpty() {
+        return items.isEmpty();
     }
 }

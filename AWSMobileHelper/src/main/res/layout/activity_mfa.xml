@@ -23,7 +23,8 @@
         android:text="@string/mfa_header"
         android:id="@+id/mfa_title"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"/>
 
     <Space
         android:layout_width="match_parent"
@@ -39,7 +40,8 @@
         android:text="@string/mfa_code_sent_message"
         android:id="@+id/mfa_message"
         android:layout_below="@id/mfa_space1"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"/>
 
     <Space
         android:layout_width="match_parent"
@@ -55,7 +57,8 @@
         android:layout_below="@id/mfa_space2"
         android:layout_centerHorizontal="true"
         android:hint="@string/forgot_password_input_code_hint"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:fontFamily="sans-serif-light"/>
 
     <Space
         android:layout_width="match_parent"
@@ -72,5 +75,7 @@
         android:id="@+id/mfa_button"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/mfa_space3"
-        android:onClick="verify"/>
+        android:onClick="verify"
+        android:background="#11d911"
+        android:fontFamily="sans-serif-light"/>
 </RelativeLayout>

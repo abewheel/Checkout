@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Abe\\.android\\build-cache\\fbb0318e3c3bfa4620238406df24c37bb4b0c5b9\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\Abe\\.android\\build-cache\\fbb0318e3c3bfa4620238406df24c37bb4b0c5b9\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\Abe\\.android\\build-cache\\fbb0318e3c3bfa4620238406df24c37bb4b0c5b9\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Abe\\.android\\build-cache\\fbb0318e3c3bfa4620238406df24c37bb4b0c5b9\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "C:\\Users\\Abe\\AndroidStudioProjects\\Checkout\\AWSMobileHelper\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_multichoice_material.xml",

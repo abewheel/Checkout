@@ -24,7 +24,8 @@
         android:text="@string/sign_up_confirm_title"
         android:id="@+id/confirm_account_title"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"/>
 
     <Space
         android:layout_width="match_parent"
@@ -40,7 +41,8 @@
         android:text="@string/sign_up_confirm_code_sent"
         android:id="@+id/confirm_account_message1"
         android:layout_below="@id/confirm_account_space1"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"/>
 
     <Space
         android:layout_width="match_parent"
@@ -56,7 +58,8 @@
         android:text="@string/sign_up_confirm_enter_code"
         android:id="@+id/confirm_account_message2"
         android:layout_below="@id/confirm_account_space2"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"/>
 
     <Space
         android:layout_width="match_parent"
@@ -72,7 +75,8 @@
         android:layout_below="@id/confirm_account_space3"
         android:layout_centerHorizontal="true"
         android:hint="@string/username_text"
-        android:inputType="textPersonName"/>
+        android:inputType="textPersonName"
+        android:fontFamily="sans-serif-light"/>
 
     <Space
         android:layout_width="match_parent"
@@ -87,7 +91,8 @@
         android:layout_below="@id/confirm_account_space4"
         android:layout_centerHorizontal="true"
         android:hint="@string/sign_up_confirm_code"
-        android:inputType="number" />
+        android:inputType="number"
+        android:fontFamily="sans-serif-light"/>
 
     <Space
         android:layout_width="match_parent"
@@ -104,6 +109,8 @@
         android:id="@+id/confirm_account_button"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/confirm_account_space5"
-        android:onClick="confirmAccount"/>
+        android:onClick="confirmAccount"
+        android:fontFamily="sans-serif-light"
+        android:background="#11d911"/>
 
 </RelativeLayout>

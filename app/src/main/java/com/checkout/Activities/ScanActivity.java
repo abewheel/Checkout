@@ -14,6 +14,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.amazonaws.auth.AWSCredentialsProvider;
+import com.amazonaws.mobile.AWSConfiguration;
 import com.checkout.Fragments.CardFragment;
 import com.checkout.Fragments.CartFragment;
 import com.checkout.Fragments.HistoryFragment;

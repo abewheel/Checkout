@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/purchaseDateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#000000"
+        android:text="Example purchase"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/purchaseItemsTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:text="1 item(s)"
+        android:layout_below="@+id/purchaseDateTV"
+        android:layout_marginLeft="10dp"/>
+    />
+
+    <TextView
+        android:id="@+id/purchaseCostTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:text="$0.00"
+        android:layout_below="@+id/purchaseItemsTV"
+        android:layout_marginLeft="10dp"/>
+    />
+</RelativeLayout>

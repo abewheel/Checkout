@@ -31,4 +31,8 @@ public class Purchases {
     public int size() {
         return purchases.size();
     }
+
+    public ArrayList<Purchase> getPurchases() {
+        return purchases;
+    }
 }

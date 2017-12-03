@@ -1,6 +1,6 @@
 package com.checkout;
 
-import android.support.multidex.MultiDexApplication;
+import android.app.Application;
 import android.util.Log;
 
 import com.amazonaws.mobile.AWSMobileClient;
@@ -8,11 +8,11 @@ import com.amazonaws.mobile.util.AbstractApplicationLifeCycleHelper;
 import com.amazonaws.mobileconnectors.pinpoint.PinpointManager;
 
 /**
- * Application class responsible for initializing singletons and other common components.
+ * CheckoutApplication class responsible for initializing singletons and other common components.
  */
-public class Application extends MultiDexApplication {
+public class CheckoutApplication extends Application {
 
-    private final static String LOG_TAG = Application.class.getSimpleName();
+    private final static String LOG_TAG = CheckoutApplication.class.getSimpleName();
     private AbstractApplicationLifeCycleHelper applicationLifeCycleHelper;
 
     @Override

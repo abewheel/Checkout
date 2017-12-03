@@ -31,7 +31,7 @@ public abstract class AbstractApplicationLifeCycleHelper implements Application.
 
     /**
      * Constructor. Registers to receive activity lifecycle events.
-     * @param application the Android Application class.
+     * @param application the Android CheckoutApplication class.
      */
     public AbstractApplicationLifeCycleHelper(final Application application) {
         application.registerActivityLifecycleCallbacks(this);
@@ -89,8 +89,8 @@ public abstract class AbstractApplicationLifeCycleHelper implements Application.
     }
 
     /**
-     * Call this method when your Application trims memory.
-     * @param level the level passed through from Application.onTrimMemory().
+     * Call this method when your CheckoutApplication trims memory.
+     * @param level the level passed through from CheckoutApplication.onTrimMemory().
      */
     public void handleOnTrimMemory(final int level) {
         Log.d(LOG_TAG, "onTrimMemory " + level);

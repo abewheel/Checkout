@@ -27,7 +27,16 @@
         android:contentDescription="@string/cartListDescription">
     </ListView>
 
+    <TextView
+        android:id="@+id/emptyCartTV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/noItemsInCart"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
     <Button
+        android:id="@+id/checkoutButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/checkout"
@@ -36,6 +45,7 @@
         android:textColor="#000000"
         android:textSize="24sp"
         android:fontFamily="sans-serif-light"
-        android:contentDescription="@string/purchaseButtonDescription"/>
+        android:contentDescription="@string/purchaseButtonDescription"
+        android:visibility="invisible"/>
 
 </LinearLayout>

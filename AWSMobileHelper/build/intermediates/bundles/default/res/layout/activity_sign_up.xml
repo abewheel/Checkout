@@ -23,7 +23,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:text="@string/sign_up_header"
-        android:textAppearance="?android:attr/textAppearanceSmall" />
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:fontFamily="sans-serif-light"/>
 
     <Space
         android:id="@+id/signup_space1"
@@ -39,7 +40,8 @@
         android:layout_below="@id/signup_space1"
         android:layout_centerHorizontal="true"
         android:hint="@string/username_text"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:fontFamily="sans-serif-light"/>
 
     <Space
         android:id="@+id/signup_space2"
@@ -54,7 +56,8 @@
         android:layout_below="@id/signup_space2"
         android:layout_centerHorizontal="true"
         android:hint="@string/sign_in_password"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword"
+        android:fontFamily="sans-serif-light"/>
 
     <Space
         android:id="@+id/signup_space3"
@@ -69,7 +72,8 @@
         android:layout_below="@id/signup_space3"
         android:layout_centerHorizontal="true"
         android:hint="@string/given_name_text"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:fontFamily="sans-serif-light"/>
 
     <Space
         android:id="@+id/signup_space4"
@@ -84,7 +88,8 @@
         android:layout_below="@id/signup_space4"
         android:layout_centerHorizontal="true"
         android:hint="@string/email_address_text"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:fontFamily="sans-serif-light"/>
 
     <Space
         android:id="@+id/signup_space5"
@@ -99,7 +104,8 @@
         android:layout_below="@id/signup_space5"
         android:layout_centerHorizontal="true"
         android:hint="@string/phone_number_text"
-        android:inputType="phone"/>
+        android:inputType="phone"
+        android:fontFamily="sans-serif-light"/>
 
     <Space
         android:id="@+id/signup_space6"
@@ -116,7 +122,9 @@
         android:onClick="signUp"
         android:text="@string/title_activity_sign_up"
         android:textAllCaps="false"
-        android:textSize="@dimen/user_pools_activity_button_text_size"/>
+        android:textSize="@dimen/user_pools_activity_button_text_size"
+        android:fontFamily="sans-serif-light"
+        android:background="#11d911"/>
 
 
 </RelativeLayout>

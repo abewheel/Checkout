@@ -27,4 +27,12 @@
         android:contentDescription="@string/historyDescription">
     </ListView>
 
+    <TextView
+        android:id="@+id/emptyHistoryTV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/noPurchasesInHistory"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
 </LinearLayout>

@@ -12,6 +12,7 @@ import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.hardware.Camera;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -101,6 +102,10 @@ public class SignInActivity extends Activity {
         signInManager = SignInManager.getInstance();
 
         signInManager.setProviderResultsHandler(this, new SignInProviderResultHandlerImpl());
+
+        if(ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
+            ActivityCompat.requestPermissions(this, new String[]{ Manifest.permission.CAMERA}, 0);
+        }
 
         // Initialize sign-in buttons.
         signInManager.initializeSignInButton(IdentityProviderType.COGNITO_USER_POOL,
