@@ -52,13 +52,6 @@ Checkout was implemented in Java using AndroidStudio. It utilizes Amazon Cognito
 </p>
 
 
-<p align="center">
-
-  <img src="https://github.com/abewheel/Checkout/blob/master/images/ssCard.PNG" alt="Card"/>
-
-</p>
-
-
 
 <p align="center">
 
